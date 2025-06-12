@@ -1,12 +1,4 @@
-import {
-  FaXTwitter,
-  FaLinkedin,
-  FaFacebook,
-  FaDiscord,
-  FaInstagram,
-  FaBars,
-  FaGithub,
-} from "react-icons/fa6";
+import { FaLinkedin, FaGithub } from "react-icons/fa6";
 
 import { TbBrandJavascript } from "react-icons/tb";
 import { RiReactjsLine } from "react-icons/ri";
@@ -150,7 +142,7 @@ export const PROJECTS = [
       <RiReactjsLine className="text-2xl text-cyan-400" />,
       <FaNode className="text-2xl text-green-600" />,
     ],
-    sourceLink: "https://google.com",
+    sourceLink: "https://github.com/TysenTodd/portfolio",
     timeline: "Continuous",
     keyObjectives:
       "Showcase my programming skills and what I have learned during my programming path.",
@@ -198,10 +190,6 @@ export const SKILLS = [
 ];
 
 export const SOCIAL_MEDIA_LINKS = [
-  {
-    href: "https://www.linkedin.com/in/tysen-todd-029255156//",
-    icon: <FaFacebook fontSize={25} className="hover:opacity-80" />,
-  },
   {
     href: "https://github.com/TysenTodd",
     icon: <FaGithub fontSize={25} className="hover:opacity-80" />,
