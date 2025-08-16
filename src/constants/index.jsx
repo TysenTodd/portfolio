@@ -9,6 +9,7 @@ import { FaVuejs } from "react-icons/fa";
 import { FaHtml5, FaCss3Alt } from "react-icons/fa";
 import { DiMysql } from "react-icons/di";
 import { DiJava } from "react-icons/di";
+import { PiFileCSharp } from "react-icons/pi";
 
 import video1 from "../assets/video1.mp4";
 import video2 from "../assets/video2.mp4";
@@ -48,6 +49,7 @@ export const PROFILE = {
       <FaNode className="text-3xl text-green-600" />
       <FaVuejs className="text-3xl text-white" />
       <SiMongodb className="text-3xl text-green-600" />
+      <PiFileCSharp className="text-3xl text-purple-600" />
     </div>,
   ],
 };
@@ -88,7 +90,7 @@ export const PROJECTS = [
     title: "GamerJunction",
     subtitle:
       "A fullstack e-commerce platform designed to sell video game-related items, fully integrated with a database for secure and efficient inventory management.",
-    date: "May 2024 - Ongoing",
+    date: "May 2024 - September 2024",
     video: video2,
     technologies: [
       <RiReactjsLine className="text-2xl text-cyan-400" />,
@@ -160,7 +162,7 @@ export const SKILLS = [
   {
     icon: <RiReactjsLine className="text-4xl lg:text-6xl text-cyan-400" />,
     name: "React",
-    experience: "7 Months",
+    experience: "8 Months",
   },
   {
     icon: <DiJava className="text-4xl lg:text-6xl text-green-600" />,
@@ -170,7 +172,7 @@ export const SKILLS = [
   {
     icon: <DiMysql className="text-4xl lg:text-6xl text-green-600" />,
     name: "mySQL",
-    experience: "2-3 Months",
+    experience: "6-7 Months",
   },
   {
     icon: <FaNode className="text-4xl lg:text-6xl text-green-600" />,
@@ -185,6 +187,11 @@ export const SKILLS = [
   {
     icon: <SiMongodb className="text-4xl lg:text-6xl text-green-600" />,
     name: "MongoDB",
+    experience: "1-2 Months",
+  },
+  {
+    icon: <PiFileCSharp className="text-4xl lg:text-6xl text-purple-600" />,
+    name: "C#",
     experience: "1-2 Months",
   },
 ];
